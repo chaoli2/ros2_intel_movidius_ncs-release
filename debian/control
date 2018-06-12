@@ -1,0 +1,12 @@
+Source: ros-bouncy-movidius-ncs-stream
+Section: misc
+Priority: extra
+Maintainer: Xiaojun Huang <xiaojun.huang@intel.com>
+Build-Depends: debhelper (>= 9.0.0), ros-ardent-movidius-ncs-lib, ros-ardent-object-msgs, ros-bouncy-ament-cmake, ros-bouncy-ament-index-cpp, ros-bouncy-class-loader, ros-bouncy-rclcpp, ros-bouncy-rviz-yaml-cpp-vendor, ros-bouncy-sensor-msgs, ros-bouncy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-bouncy-movidius-ncs-stream
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-ardent-movidius-ncs-lib, ros-ardent-object-msgs, ros-bouncy-ament-index-cpp, ros-bouncy-class-loader, ros-bouncy-rclcpp, ros-bouncy-rviz-yaml-cpp-vendor, ros-bouncy-sensor-msgs, ros-bouncy-ros-workspace
+Description: Movidius NCS node for stream
